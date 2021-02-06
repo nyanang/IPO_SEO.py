@@ -14,7 +14,7 @@ file = open("./BG_01_11.json", "a")
 start = 2001
 end = 2011
 
-KEY = "s5sagPE2BUd%2FnukSjDSc6IUYJo0aQyjs0aUKlHRgB%2BDzq5rk%2F%2FeUrZADFT2%2BOGThClMnyFcUJJgK1QFlR0sWEw%3D%3D"
+KEY = //
 
 for year in range(start, end):
     url = ("http://apis.data.go.kr/1130000/affiCompList/affiliationCompList?serviceKey={}&presentnYear="+str(year)+"&numOfRows=5000&pageNo=1&_type=json xml, json").format(KEY)
